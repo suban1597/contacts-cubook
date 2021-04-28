@@ -21,7 +21,7 @@ if($name<>"" || $email <> "" || $mesg <> "") {
 $res = notify_message($message,$stickerPkg,$stickerId,$token);
  echo "<center>ส่งข้อความเรียบร้อยแล้ว</center>";
  ?>
-<meta http-equiv="refresh" content="2;url=request.html">
+<meta http-equiv="refresh" content="2;url=contacts.html">
 <?php
 
 } else {
